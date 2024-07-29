@@ -1,0 +1,109 @@
+print("Seja muito bem vindo ao processo freelancer da PJ DIGITAÇÃO")
+answer_user = input("Deseja Comerçar? (S/N) ")
+
+if answer_user != "S":
+    quit()
+
+score = 0    
+
+print("Iniciando")
+print("1) Considerando seus conhecimentos sobre o Word 2016, indique nas alternativas abaixo qual atalho é utilizado para restaurar a janela da tela? \n (A) ALT + F5 \n (B) CTRL + F10 \n (C) CTRL + F4 \n")
+answer_1 = input("Resposta: ")
+
+if answer_1 == "A":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("2) Sobre teclas de atalho do Microsoft word, marque a alternativa correta que indica, respectivamente: Salvar, Recortar, Desfazer, Negrito e Ajuda? \n (A) CTRL + B, CTRL + R, CTRL + Y, CTRL + N, CTRL + H \n (B) CTRL + S, CTRL + X, CTRL + Z, CTRL + B, CTRL + H \n (C) CTRL + B, CTRL + X, CTRL + Z, CTRL + N, F1 \n")
+answer_2 = input("Resposta: ")
+
+if answer_2 == "C":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("3) Assinale corretamente o atalho utilizado pelo Microsoft Word para recortar uma informação do texto \n (A) CTRL + Z \n (B) CTRL + X \n (C) CTRL + A \n")
+answer_3 = input("Resposta: ")
+
+if answer_3 == "B":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")    
+
+print("4) Para centralizar o texto, utilizando a versão mais recente do word, deve ser utilizado as teclas de atalho: \n (A) CTRL + B \n (B) CTRL + J \n (C) CTRL + E \n")
+answer_4 = input("Resposta: ")
+
+if answer_4 == "C":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("5) Ocomando CTRL + S é usado no Microsoft word 2019 para: \n (A) Alterar o alinhamento das palavras do texto \n (B) Alterar a cor do texto \n (C) Sublinhar o texto \n")
+answer_5 = input("Resposta: ")
+
+if answer_5 == "C":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("6) É correto afirmar que a função DIAS do MS-Excel é responsável por? \n (A) localizar uma cadeia de texto em uma segunda cadeia de texto \n (B) retornar um valor ou a referência a um valor de dentro de uma tabela ou intervalo \n (C) retornar o número de dias entre duas datas \n")
+answer_6 = input("Resposta: ")
+
+if answer_6 == "C":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto") 
+
+print("7) Para realizar a revisão ortográfica e gramatical em um documento no Word BR, deve-se precionar a tecla? \n (A) F3 \n (B) F7 \n (C) F4 \n")
+answer_7 = input("Resposta: ")
+
+if answer_7 == "B":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("8) Qual opção de formatação de dados do Excel é usada para exibir números com uma casa decimal? \n (A) número \n (B) moeda \n (C) porcentagem \n")
+answer_8 = input("Resposta: ")
+
+if answer_8 == "A":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")
+
+print("9) Em relação ao editor de planilha eletrinica - excel, este na sua versão em português, assinale a fórmula que apresenta um erro de sintaxe \n (A) SOMA(AI:A5:A7) \n (B) SOMA(A1:A5:6) \n (C) SOMA(A1:A5;A7) \n")
+answer_9 = input("Resposta: ")
+
+if answer_9 == "A":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto")  
+
+print("10) No Microsoft Excel, qual das fórmulas abaixo pode ser utilizada para somar os valores das celulas no intervalo A1 a A10? \n (A) =TOTAL(A1:A10) \n (B) SOMA(A1:A10) \n (C) SOM(A1+A10) \n")
+answer_10 = input("Resposta: ")
+
+if answer_10 == "B":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto") 
+
+print("11) Considerando o Ecxel e suas funcionalidades, pode-se afirmar que a guia REVISÃO concentra funcionalidades como: \n (A) a inserção de tabelas \n (B) o dicionário de sinônimos \n (C) a inserção de gráficos \n")
+answer_11 = input("Resposta: ")
+
+if answer_11 == "B":
+    print("correto!")
+    score = score + 1
+else:
+    print("incorreto") 
+
+print(f"Exame Finalizado. Pontuação: {score}/11")
